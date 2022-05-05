@@ -1,0 +1,51 @@
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+input[type=number] { -moz-appearance:textfield; }
+::placeholder {
+    color: rgb(241, 241, 247);
+    font-weight: 300;
+}
+.aceptar{
+    font-size: 13px !important;
+    color: #566fa7;
+}
+.aceptar:hover{
+    color: #000fdf;
+}
+.aceptar-politicas{
+    margin: 15px 0px 0px 10px;
+}
+.acepto-las{
+    color: #010914 !important;
+}
+.acepto-las:hover{
+    color: #010914 !important;
+}
+.navegacion{
+    color: aliceblue;
+    font-size: 25px;
+    font-weight: 500;
+    text-decoration: none;
+    text-align: center;
+  }
+.activo{
+    background-color: #dce4f5;
+    color: #010914;
+    border-radius: 15px;
+}
+.activo:hover{
+    background-color: #c0ceec;
+    color: #000711;
+}
+.activos{
+    background-color: #92b1f5;
+    color: #010914;
+    border-radius: 15px;
+}
+.activos:hover{
+    background-color: #c0ceec;
+    color: #000711;
+}
